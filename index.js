@@ -1,4 +1,6 @@
-const apiKey = "6a92b6a00edabf65004b5e0660e2955a";
+import dotenv from dotenv
+
+const apiKey = process.env.API_KEY;
 const button = document.getElementById("buscar");
 
 button.addEventListener("click", () => {
